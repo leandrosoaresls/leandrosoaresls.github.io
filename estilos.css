@@ -105,7 +105,7 @@ h1 {
 }
 
 .portfolio h5{
-    background: url(../imagens/portfolio.png) no-repeat;
+    background: url(../portfolio.png) no-repeat;
     width: 198px;
     height: 55px;
     text-indent: -9999px;
@@ -131,7 +131,7 @@ h1 {
 }
 
 .rede .blog h6{
-    background: url(leandrosoaresls.github.io/blog.png) no-repeat;
+    background: url(/leandrosoaresls.github.io/blog.png) no-repeat;
     width: 68px;
     height: 36px;
     text-indent: -9999px;
