@@ -24,7 +24,7 @@ body {
 
 /* topo */
 h1 {
-    background:url(../imagens/logo_top.png) no-repeat;
+    background:url(../logo_top.png) no-repeat;
     width: 194px;
     height: 112px;
     text-indent: -9999px;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .chamadas .chamadas_coluna1 h2{
-    background: url(../imagens/sobre.png) no-repeat;
+    background: url(../sobre.png) no-repeat;
     width: 283px;
     height: 44px;
     text-indent: -9999px;
@@ -73,7 +73,7 @@ h1 {
 }
 
 .chamadas .chamadas_coluna2 h3{
-    background: url(../imagens/clientes.png) no-repeat;
+    background: url(../clientes.png) no-repeat;
     width: 284px;
     height: 44px;
     text-indent: -9999px;
@@ -81,7 +81,7 @@ h1 {
 }
 
 .chamadas .chamadas_coluna3 h4{
-    background: url(../imagens/contato.png) no-repeat;
+    background: url(../contato.png) no-repeat;
     width: 284px;
     height: 44px;
     text-indent: -9999px;
@@ -131,7 +131,7 @@ h1 {
 }
 
 .rede .blog h6{
-    background: url(https://leandrosoaresls.github.io/blog.png) no-repeat;
+    background: url(../blog.png) no-repeat;
     width: 68px;
     height: 36px;
     text-indent: -9999px;
@@ -150,7 +150,7 @@ h1 {
 }
 
 .social h6{
-    background: url(../imagens/siganos.png) no-repeat;
+    background: url(../siganos.png) no-repeat;
     width: 100px;
     height: 36px;
     text-indent: -9999px;
@@ -166,7 +166,7 @@ h1 {
 }
 
 .social ul li a.twitter {
-    background: url(../imagens/twitter.png) no-repeat;
+    background: url(../twitter.png) no-repeat;
     width: 40px;
     height: 36px;
     text-indent: -9999px;
@@ -174,7 +174,7 @@ h1 {
 }
 
 .social ul li a.facebook {
-    background: url(../imagens/facebook.png) no-repeat;
+    background: url(../facebook.png) no-repeat;
     width: 35px;
     height: 36px;
     text-indent: -9999px;
@@ -183,7 +183,7 @@ h1 {
 }
 
 .social ul li a.flickr {
-    background: url(../imagens/flickr.png) no-repeat;
+    background: url(../flickr.png) no-repeat;
     width: 39px;
     height: 32px;
     text-indent: -9999px;
@@ -191,7 +191,7 @@ h1 {
 }
 
 .social ul li a.rss {
-    background: url(../imagens/rss.png) no-repeat;
+    background: url(../rss.png) no-repeat;
     width: 39px;
     height: 48px;
     text-indent: -9999px;
@@ -235,7 +235,7 @@ h1 {
 }
 
 .rodape .conteudo-footer h6 {
-    background: url(../imagens/logo_footer.png) no-repeat;
+    background: url(../logo_footer.png) no-repeat;
     width: 129px;
     height: 86px;
     text-indent: -9999px;
