@@ -1,0 +1,244 @@
+/* Padrão */
+body {
+    background: #f4f4f4;
+    border-top: 17px solid #000;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+/* Estrutura */
+.geral {
+    width: 962px;
+    margin: 20px auto 0;
+}
+.topo {
+    border-bottom: 1px solid #c0c0c0;
+    padding: 0 0 20px 0;
+}
+.rodape {
+    margin-top: 20px;
+    background: #e2e2e2;
+    padding: 10px 0;
+    clear: both;
+}
+
+/* topo */
+h1 {
+    background:url(../imagens/logo_top.png) no-repeat;
+    width: 194px;
+    height: 112px;
+    text-indent: -9999px;
+}
+.topo ul{ float: right; margin: -60px 0 0 0;}
+.topo ul li{ display: inline; padding: 0 0 0 60px; text-transform: uppercase; }
+.topo ul li a { font-weight: bold; text-decoration: none; color: #fe9b00; }
+.topo ul li a:hover { text-decoration: underline; }
+
+/* Conteúdo */
+.slider {
+    margin: 20px 0 0 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #c0c0c0;
+}
+.chamadas {
+    margin: 20px 0 0 0;
+
+}
+.chamadas .chamadas_coluna1 {
+    width: 285px;
+    float: left;
+
+}
+
+.chamadas .chamadas_coluna2 {
+    width: 285px;
+    float: left;
+    margin-left: 50px;
+
+
+}
+.chamadas .chamadas_coluna3 {
+    width: 285px;
+    float: left;
+    margin-left: 50px;
+
+}
+
+.chamadas .chamadas_coluna1 h2{
+    background: url(../imagens/sobre.png) no-repeat;
+    width: 283px;
+    height: 44px;
+    text-indent: -9999px;
+
+}
+
+.chamadas .chamadas_coluna2 h3{
+    background: url(../imagens/clientes.png) no-repeat;
+    width: 284px;
+    height: 44px;
+    text-indent: -9999px;
+
+}
+
+.chamadas .chamadas_coluna3 h4{
+    background: url(../imagens/contato.png) no-repeat;
+    width: 284px;
+    height: 44px;
+    text-indent: -9999px;
+
+}
+
+.chamadas p {
+    width: 283px;
+    color: #999;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 150%;      
+}
+
+.portfolio {
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px 0 30px 0;
+    clear: both;
+
+}
+
+.portfolio h5{
+    background: url(../imagens/portfolio.png) no-repeat;
+    width: 198px;
+    height: 55px;
+    text-indent: -9999px;
+
+}
+.portfolio ul {
+    margin-top: 10px;
+
+}
+.portfolio ul li {
+    display: inline;
+    margin-left: 23px;
+
+}
+
+.rede {
+    margin-top: 20px;
+}
+
+.rede .blog {
+    width: 662px;
+    float: left;
+}
+
+.rede .blog h6{
+    background: url(../imagens/blog.png) no-repeat;
+    width: 68px;
+    height: 36px;
+    text-indent: -9999px;
+}
+
+.rede .blog p{
+    color: #999;
+    line-height: 150%;
+    margin-top: 20px;
+    width: 662px;
+}
+
+.social {
+    float: right;
+    width: 185px;
+}
+
+.social h6{
+    background: url(../imagens/siganos.png) no-repeat;
+    width: 100px;
+    height: 36px;
+    text-indent: -9999px;
+}
+
+.social ul {
+    margin-top: 10px;
+}
+
+.social ul li {
+    margin: 0;
+    float: left;
+}
+
+.social ul li a.twitter {
+    background: url(../imagens/twitter.png) no-repeat;
+    width: 40px;
+    height: 36px;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social ul li a.facebook {
+    background: url(../imagens/facebook.png) no-repeat;
+    width: 35px;
+    height: 36px;
+    text-indent: -9999px;
+    display: block;
+    margin-left: 5px;
+}
+
+.social ul li a.flickr {
+    background: url(../imagens/flickr.png) no-repeat;
+    width: 39px;
+    height: 32px;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social ul li a.rss {
+    background: url(../imagens/rss.png) no-repeat;
+    width: 39px;
+    height: 48px;
+    text-indent: -9999px;
+    display: block;
+    margin-top: -12px;
+}
+
+/* Rodapé */
+.rodape .conteudo-footer {
+    width: 962px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.rodape .conteudo-footer ul{
+    width: 350px;
+}
+
+.rodape .conteudo-footer ul li {
+    display: inline;
+    border-left: 1px solid #999;
+    padding: 0 4px 0 4px;
+}
+
+.rodape .conteudo-footer ul li.noborder {
+    border: none;
+}
+
+.rodape .conteudo-footer ul li a {
+    color: #999;
+    text-decoration: none;    
+}
+
+.rodape .conteudo-footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.rodape .conteudo-footer p {
+    color: #999;
+    margin: 8px 0 0 4px;
+}
+
+.rodape .conteudo-footer h6 {
+    background: url(../imagens/logo_footer.png) no-repeat;
+    width: 129px;
+    height: 86px;
+    text-indent: -9999px;
+    float: right;
+    margin-top: -52px;
+}
