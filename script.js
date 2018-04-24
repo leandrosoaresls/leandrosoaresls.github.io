@@ -1,3 +1,5 @@
+alert ('Seja bem vido! Este site pessoal ainda esta em construção. Estou utilizando como forma de treinamento.');
+
 /*
 function myFunction() {
     document.getElementById("demo").innerHTML = "Paragrafo mudou!";
@@ -46,4 +48,4 @@ function myFunction() {
            document.getElementById("demo5").innerHTML = ' - ' + groceryItem;
        });*/
        
-       alert ('Seja bem vido! Este site pessoal ainda esta em construção. Estou utilizando como forma de treinamento. :)');
+       
