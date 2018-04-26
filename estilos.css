@@ -150,9 +150,9 @@ h1 {
 }
 
 .social h6{
-    background: url(../siganos.png) no-repeat;
-    width: 100px;
-    height: 36px;
+    background: url(../imagens/redes_sociais.png) no-repeat;
+    width: 133px;
+    height: 25px;
     text-indent: -9999px;
 }
 
@@ -167,8 +167,8 @@ h1 {
 
 .social ul li a.twitter {
     background: url(../twitter.png) no-repeat;
-    width: 40px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
     text-indent: -9999px;
     display: block;
 }
@@ -182,21 +182,31 @@ h1 {
     margin-left: 5px;
 }
 
-.social ul li a.flickr {
-    background: url(../flickr.png) no-repeat;
-    width: 39px;
-    height: 32px;
+.social ul li a.github {
+    background: url(../imagens/github.png) no-repeat;
+    width: 35px;
+    height: 34px;
     text-indent: -9999px;
     display: block;
+    margin-left: 5px;
 }
 
-.social ul li a.rss {
-    background: url(../rss.png) no-repeat;
-    width: 39px;
-    height: 48px;
+.social ul li a.linkedin {
+    background: url(../imagens/linkedin.png) no-repeat;
+    width: 35px;
+    height: 35px;
     text-indent: -9999px;
     display: block;
-    margin-top: -12px;
+    margin-left: 5px;
+}
+
+.social ul li a.instagram {
+    background: url(../imagens/instagram.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    text-indent: -9999px;
+    display: block;
+    margin-left: 5px;
 }
 
 /* Rodapé */
@@ -207,7 +217,7 @@ h1 {
 }
 
 .rodape .conteudo-footer ul{
-    width: 350px;
+    width: 500px;
 }
 
 .rodape .conteudo-footer ul li {
