@@ -1,1 +1,1 @@
-alert ('Seja bem vindo! Meu site pessoal ainda esta em construção.');
+alert ('Seja bem vindo! Ainda faltam alguns ajustes! :)');
