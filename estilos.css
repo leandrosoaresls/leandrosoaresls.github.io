@@ -24,7 +24,7 @@ body {
 
 /* topo */
 h1 {
-    background:url(../logo_top.png) no-repeat;
+    background:url(../logo_topo.png) no-repeat;
     width: 194px;
     height: 112px;
     text-indent: -9999px;
@@ -245,7 +245,7 @@ h1 {
 }
 
 .rodape .conteudo-footer h6 {
-    background: url(../logo_footer.png) no-repeat;
+    background: url(../logo_rodape.png) no-repeat;
     width: 129px;
     height: 86px;
     text-indent: -9999px;
