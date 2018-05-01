@@ -118,21 +118,17 @@ h1 {
 .chamadas .chamadas_coluna1 {
     width: 285px;
     float: left;
-
 }
 
-.chamadas .chamadas_coluna2 {
+/*.chamadas .chamadas_coluna2 {
     width: 285px;
     float: left;
     margin-left: 50px;
-
-
-}
+}*/
 .chamadas .chamadas_coluna3 {
     width: 285px;
     float: left;
     margin-left: 50px;
-
 }
 
 .chamadas .chamadas_coluna1 h2{
