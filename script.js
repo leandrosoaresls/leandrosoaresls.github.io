@@ -1,4 +1,4 @@
-alert ('Seja bem vindo! Ainda faltam alguns ajustes! :)');
+/*alert ('Seja bem vindo! Ainda faltam alguns ajustes! :)');*/
 
 var slideIndex = 1;
 showSlides(slideIndex);
