@@ -1,303 +1,65 @@
-/* Padrão */
-body {
-    background: #f4f4f4;
-    border-top: 17px solid #000;
-    font-family: Arial;
-    font-size: 12px;
+body {    
+    font-family: Inconsolata,monospace;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #fff;
+    height: 100%;
 }
 
-/* Estrutura */
-.geral {
-    width: 962px;
-    margin: 20px auto 0;
-}
-.topo {
-    border-bottom: 1px solid #c0c0c0;
-    padding: 0 0 20px 0;
-}
-.rodape {
-    margin-top: 20px;
-    background: #e2e2e2;
-    padding: 10px 0;
-    clear: both;
+#nav-geral {
+    margin-bottom: 0px;
+    background-color: #fff;
 }
 
-/* topo */
-h1 {
-    background:url(../logo_topo.png) no-repeat;
-    width: 194px;
-    height: 112px;
-    text-indent: -9999px;
+#nav-geral a {
+    color: #3d3d3d;
+    font-size: 1.2em;
 }
-.topo ul{ float: right; margin: -60px 0 0 0;}
-.topo ul li{ display: inline; padding: 0 0 0 55px; text-transform: uppercase; }
-.topo ul li a { font-weight: bold; text-decoration: none; color: #000000; }
-.topo ul li a:hover { text-decoration: underline; }
-
-/* Conteúdo */
-
-/* COMEÇO SLIDER */
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slider {
-  max-width: 1000px;
-  position: relative;  
-  margin: 20px 0 0 0;
-  padding: 0 0 20px 0;
-  border-bottom: 1px solid #c0c0c0;
+#content-geral {
+    display: flex; 
+    flex-direction: column;
+    padding: 0;
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
+#sobre {
+    background-color: #EAB543;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+#contato {
+    background-color: #82589F;
 }
 
-/* Posiciona o "botão next" à direita */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+@media(min-width: 750px ){
+    #sobre, #contato {
+        padding: 3em;
+     }   
 }
 
-/* Ao passar o mouse, adiciona uma cor de fundo preta com um pouco de transparência */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+@media(max-width: 750px ){
+    #sobre, #contato {
+        padding: 1em;
+     }
 }
 
-/* Number text (1/2 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+footer {
+    background: #2f3640;   
+    padding: 1em;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+#bt {
+   background-color: #fff; 
+   border: none;
+}
+#bt span {
+    background-color: #3d3d3d;
 }
 
-/* Fading animação */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-/* FIM SLIDER */
-
-.chamadas {
-    margin: 20px 0 0 0;
-
-}
-.chamadas .chamadas_coluna1 {
-    width: 285px;
-    float: left;
-}
-
-/*.chamadas .chamadas_coluna2 {
-    width: 285px;
-    float: left;
-    margin-left: 50px;
-}*/
-.chamadas .chamadas_coluna3 {
-    width: 285px;
-    float: left;
-    margin-left: 50px;
-}
-
-.chamadas .chamadas_coluna1 h2{
-    background: url(../sobre.png) no-repeat;
-    width: 283px;
-    height: 44px;
-    text-indent: -9999px;
-
-}
-
-.chamadas .chamadas_coluna2 h3{
-    background: url(../clientes.png) no-repeat;
-    width: 284px;
-    height: 44px;
-    text-indent: -9999px;
-
-}
-
-.chamadas .chamadas_coluna3 h4{
-    background: url(../contato.png) no-repeat;
-    width: 284px;
-    height: 44px;
-    text-indent: -9999px;
-
-}
-
-.chamadas p {
-    width: 283px;
-    color: #999;
+.img1 img {    
     margin-top: 15px;
-    margin-bottom: 20px;
-    line-height: 150%;      
-}
-
-.portfolio {
-    border-top: 1px solid #c0c0c0;
-    border-bottom: 1px solid #c0c0c0;
-    padding: 10px 0 30px 0;
-    clear: both;
-
-}
-
-.portfolio h5{
-    background: url(../portfolio.png) no-repeat;
-    width: 198px;
-    height: 55px;
-    text-indent: -9999px;
-
-}
-.portfolio ul {
-    margin-top: 10px;
-
-}
-.portfolio ul li {
-    display: inline;
-    margin-left: 23px;
-
-}
-
-.rede {
-    margin-top: 20px;
-}
-
-.rede .blog {
-    width: 662px;
-    float: left;
-}
-
-.rede .blog h6{
-    background: url(../blog.png) no-repeat;
-    width: 68px;
-    height: 36px;
-    text-indent: -9999px;
-}
-
-.rede .blog p{
-    color: #999;
-    line-height: 150%;
-    margin-top: 20px;
-    width: 662px;
-}
-
-.social {
-    float: right;
-    width: 135px;
-}
-
-.social h6{
-    background: url(../redes_sociais.png) no-repeat;
-    width: 133px;
-    height: 25px;
-    text-indent: -9999px;
-}
-
-.social ul {
-    margin-top: 10px;
-}
-
-.social ul li {
-    margin: 0;
-    float: left;
-}
-
-.social ul li a.twitter {
-    background: url(../twitter.png) no-repeat;
-    width: 35px;
-    height: 35px;
-    text-indent: -9999px;
-    display: block;
-}
-
-.social ul li a.github {
-    background: url(../github.png) no-repeat;
-    width: 35px;
-    height: 34px;
-    text-indent: -9999px;
-    display: block;
-    margin-left: 5px;
-}
-
-.social ul li a.linkedin {
-    background: url(../linkedin.png) no-repeat;
-    width: 35px;
-    height: 35px;
-    text-indent: -9999px;
-    display: block;
-    margin-left: 5px;
-}
-
-/* Rodapé */
-.rodape .conteudo-footer {
-    width: 962px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.rodape .conteudo-footer ul{
-    width: 500px;
-}
-
-.rodape .conteudo-footer ul li {
-    display: inline;
-    border-left: 1px solid #999;
-    padding: 0 4px 0 4px;
-}
-
-.rodape .conteudo-footer ul li.noborder {
-    border: none;
-}
-
-.rodape .conteudo-footer ul li a {
-    color: #999;
-    text-decoration: none;    
-}
-
-.rodape .conteudo-footer ul li a:hover {
-    text-decoration: underline;
-}
-
-.rodape .conteudo-footer p {
-    color: #999;
-    margin: 8px 0 0 4px;
-}
-
-.rodape .conteudo-footer h6 {
-    background: url(../logo_rodape.png) no-repeat;
-    width: 129px;
-    height: 86px;
-    text-indent: -9999px;
-    float: right;
-    margin-top: -52px;
+    width: 65%;
+    border: solid .2em #fff;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
 }
