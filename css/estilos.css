@@ -43,7 +43,7 @@ body {
 @media(max-width: 768px ){
     #sobre, #contato {
         padding: 1em;
-     }     
+    }     
 }
 
 footer {
