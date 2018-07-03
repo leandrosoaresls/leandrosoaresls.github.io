@@ -69,7 +69,7 @@ footer {
 .img1 img {    
     margin-top: 15px;
     width: 40%;
-    border: solid .2em #fff;
+    border: solid .1em #fff;
     position: relative;
     left: 50%;
     transform: translateX(-50%)
