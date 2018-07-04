@@ -60,13 +60,16 @@ header, #contato, #sobre{
 
 aside .socialmedia {
     display: flex; 
-    flex-direction: row;   
-    
+    flex-direction: row;       
 }
 
 aside li {
     list-style: none;
     display: inline;
+}
+
+aside ul {
+    padding: 0;
 }
 
 .socialmedia img {
