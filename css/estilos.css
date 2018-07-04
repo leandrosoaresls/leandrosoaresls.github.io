@@ -65,7 +65,7 @@ aside .socialmedia {
 
 aside li {
     list-style: none;
-    display: inline;
+    display: inline-block;
 }
 
 aside ul {
