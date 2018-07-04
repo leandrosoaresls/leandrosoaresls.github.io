@@ -69,6 +69,15 @@ div .socialmedia {
     margin-left: 1em;
 }
 
+@media (min-width: 600px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 400px 950px;
+        margin: auto;
+      }
+}
+
 
 
 
