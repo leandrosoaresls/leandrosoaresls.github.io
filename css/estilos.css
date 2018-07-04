@@ -48,7 +48,22 @@ footer {
 
 #contato, #sobre, footer {
     padding: 1em;
+    font-size: 1em;
 }
+
+#contato h2 {
+    font-size: 2em;
+}
+
+div .socialmedia {
+    display: flex; 
+    flex-direction: row;
+}
+
+.socialmedia img {
+    width: 30px;
+}
+
 
 
 
