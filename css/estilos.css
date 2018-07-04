@@ -24,26 +24,12 @@ header p {
     font-size: 1em;
 }
 
-.img1 img {   
+div img {   
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14); 
-    margin-top: 15px;
-    width: 40%;
+    width: 130px;
     border: solid .1em #fff;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%)
+    margin: auto;
 }
-
-#nav-geral {
-    margin-bottom: 0px;
-    background-color: #fff;
-}
-
-#nav-geral a {
-    color: #3d3d3d;
-    font-size: 1.2em;
-}
-
 
 #content-geral {
     display: flex; 
