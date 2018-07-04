@@ -58,9 +58,15 @@ header, #contato, #sobre{
     font-size: 1.2em;
 }
 
-div .socialmedia {
+aside .socialmedia {
     display: flex; 
     flex-direction: row;   
+    
+}
+
+aside li {
+    list-style: none;
+    display: inline;
 }
 
 .socialmedia img {
