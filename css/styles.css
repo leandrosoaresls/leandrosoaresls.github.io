@@ -1,98 +1,95 @@
 body {
-    display: flex; 
-    flex-direction: column;
-    line-height: 1.6;
-    font-family: "Arial", sans-serif;
-    color: #fff;
-    background-color: #EEE;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #eee;
 }
 
 header {
-    background-color: #0099AF;
-    text-align: center;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14);
+  background-color: #0099af;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
 }
 
 header h1 {
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    margin-bottom: 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
 }
 
 header p {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 header h1 {
-    font-size: 2.2em;
+  font-size: 2.2em;
 }
 
-.perfil_photo img {   
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6); 
-    width: 120px;
-    border: solid .1em #fff;
-    margin: auto;
-    margin-top: 10px;
+.photo img {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6);
+  width: 120px;
+  border: solid 0.1em #fff;
+  margin: auto;
+  margin-top: 10px;
 }
 
 #about {
-    text-align: justify;
+  text-align: justify;
 }
 
-#about, #contact {
-    
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14);
-    background-color: #FFF;
-    color: #000;
+#about,
+#contact {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  color: #000;
 }
 
 footer {
-    background: #748793;
+  background: #748793;
 }
 
-header, #contact, #about{
-    margin: .7em;
+header,
+#contact,
+#about {
+  margin: 0.7em;
 }
 
-#contact, #about, footer {
-    padding: 1em;
-    font-size: 1.2em;
+#contact,
+#about,
+footer {
+  padding: 1em;
+  font-size: 1.2em;
 }
 
 aside .socialmedia {
-    display: flex; 
-    flex-direction: row;       
+  display: flex;
+  flex-direction: row;
 }
 
 aside li {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 
 aside ul {
-    padding: 0;
+  padding: 0;
 }
 
 .socialmedia img {
-    width: 30px;
-    margin-bottom: 2em;
-    margin-right: 1em;
+  width: 30px;
+  margin-bottom: 2em;
+  margin-right: 1em;
 }
 
 @media (min-width: 600px) {
-
-    .grid-container {
-        display: grid;
-        grid-template-columns: 400px 950px;
-        margin: auto;
-    }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 400px 950px;
+    margin: auto;
+  }
 }
 
 .skills {
-    font-weight: bolder;
+  font-weight: bolder;
 }
-
-
-
-
-
-
